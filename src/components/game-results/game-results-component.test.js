@@ -16,12 +16,12 @@ describe('Game Results component', () => {
  
   it('should properly set the winner text when it is a tie', () => {
     const component = shallow(<GameResultsComponent {...props} matchWinner={'none'} />);
-    expect(component.find('.game-results-text').text()).toEqual('No one won!');
+    expect(component.find('.game-results-winner-text').text()).toEqual('No one won!');
   });
 
   it('should set the winner text with match winnerwhen it is not a tie', () => {
     const component = shallow(<GameResultsComponent {...props} />);
-    expect(component.find('.game-results-text').text()).toEqual('Player won!');
+    expect(component.find('.game-results-winner-text').text()).toEqual('Player won!');
   });
 
   it('should restart game when new match button is clicked', () => {
