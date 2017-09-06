@@ -1,0 +1,27 @@
+.game-results-component {
+  display: inline-block;
+}
+
+.game-results-img {
+  display: block;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.game-results-restart-button {
+  background-color: #d4f1f8;
+  border: 1px solid #bebdbd;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+}
+
+@media (min-width: 600px) and (max-width: 1040px) {
+  .game-results-component {
+    display: block;
+    clear: both;
+    margin: auto;
+    order: 3;
+  }
+}

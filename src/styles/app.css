@@ -1,0 +1,90 @@
+.App {
+  text-align: center; }
+
+.App-header {
+  background-color: #222;
+  height: 80px;
+  padding: 20px;
+  color: white; }
+
+.game-container {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.game-player-info, .game-player-opponent {
+  width: 38%;
+  min-width: 485px; }
+
+.game-container {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.game-player-info, .game-player-opponent {
+  width: 38%;
+  min-width: 485px; }
+
+.game-results-component {
+  display: inline-block; }
+
+.game-results-img {
+  display: block;
+  margin-top: 20px;
+  width: 300px; }
+
+.game-results-restart-button {
+  background-color: #d4f1f8;
+  border: 1px solid #bebdbd;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100px;
+  height: 30px; }
+
+@media (min-width: 600px) and (max-width: 1040px) {
+  .game-results-component {
+    display: block;
+    clear: both;
+    margin: auto;
+    order: 3; } }
+.player-info-component {
+  border: 1px solid #000; }
+
+.player-avatar {
+  width: 100px; }
+
+.player-info-title {
+  font-size: 28px; }
+
+.player-info-score {
+  display: block;
+  font-size: 18px; }
+
+.player-info-waiting-spinner {
+  padding: 55px;
+  width: 100px; }
+
+.player-choice {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+  width: 150px; }
+
+.player-choices-component {
+  margin-top: 5px; }
+
+.player-choice-image {
+  width: 100%; }
+
+.player-choices-title {
+  font-size: 20px;
+  margin: 10px 0; }
+
+.player-match-result-img {
+  display: block;
+  margin: auto;
+  width: 150px; }
+
+/*# sourceMappingURL=app.css.map */

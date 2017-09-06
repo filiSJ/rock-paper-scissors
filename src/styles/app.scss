@@ -1,0 +1,11 @@
+@import './main';
+
+// Containers
+@import '../containers/game/game-container';
+@import '../containers/game/game-container';
+
+// Components
+@import '../components/game-results/game-results-component';
+@import '../components/player-info/player-info-component';
+@import '../components/player-choices/player-choices-component';
+@import '../components/player-match-result/player-match-result-component';

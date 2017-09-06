@@ -1,0 +1,28 @@
+.game-container {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  // min-width: 1200px;
+  // width: 100%;
+  flex-wrap: wrap;
+}
+
+%game-player {
+  // display: inline-block;
+  width: 38%;
+  min-width: 485px;
+}
+
+.game-player-info {
+  @extend %game-player;
+}
+
+.game-player-opponent {
+  @extend %game-player;
+}
+
+@media (min-width: 600px) and (max-width: 1040px) {
+  .game-player-opponent {
+    // order: 2;
+  }
+}
